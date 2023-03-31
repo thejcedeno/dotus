@@ -22,7 +22,8 @@
           <a
             href="https://jcedeno.us/twitch"
             target="_blank"
-            class="font-bold text-twitch">
+            class="font-bold text-twitch"
+          >
             <div class="text-twitch">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +45,6 @@
           >
         </li>
         <!-- Twitch logo svg. TODO Pull out out here to external asset. -->
-        
 
         <li>
           <!-- Twitter logo svg. TODO Pull out out here to external asset. -->
@@ -70,52 +70,103 @@
           <a
             href="https://www.youtube.com/@thejcedeno"
             target="_blank"
-            class="font-bold text-youtube">
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            class="fill-current"
-            ><path
-              d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
-            /></svg
+            class="font-bold text-youtube"
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+              ><path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              /></svg
+            >
             jcedeno
           </a>
         </li>
       </ul>
     </div>
     <br />
-    <!-- TODO Replace this -->
-    <div class="flex flex-row justify-center items-center gap-4">
-      <a
-        class="github-button"
-        href="https://github.com/andrejjurkin/create-tw"
-        data-color-scheme="no-preference: dark; light: dark; dark: dark;"
-        data-icon="octicon-star"
-        data-size="large"
-        data-show-count="true"
-        aria-label="Star andrejjurkin/create-tw on GitHub">Star</a
-      >
-      <a
-        class="github-button"
-        href="https://github.com/andrejjurkin/create-tw/discussions"
-        data-color-scheme="no-preference: dark; light: dark; dark: dark;"
-        data-icon="octicon-comment-discussion"
-        data-size="large"
-        aria-label="Discuss andrejjurkin/create-tw on GitHub">Discuss</a
-      >
+
+    <div class="flex flex-row justify-center items-center gap-4 mb-48">
+      <div class="card card-side bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            alt="Movie"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Watch</button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-side bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            alt="Movie"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Watch</button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-side bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            alt="Movie"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Watch</button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-side bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            alt="Movie"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Watch</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
-  <br>
+
+  <br />
 
   <footer
-    class="footer footer-center p-10 bg-base-200 text-base-content rounded"
+    class="footer flex-grow footer-center p-10 bg-base-200 text-base-content rounded"
   >
     <div class="grid grid-flow-col gap-4">
-      <a class="link link-hover" href="https://jcedeno.us/realjcedeno">About me</a>
-      <a class="link link-hover" href="https://www.linkedin.com/in/realjcedeno" target="_blank">Work with me</a>
+      <a class="link link-hover" href="https://jcedeno.us/realjcedeno"
+        >About me</a
+      >
+      <a
+        class="link link-hover"
+        href="https://www.linkedin.com/in/realjcedeno"
+        target="_blank">Work with me</a
+      >
       <a class="link link-hover" href="mailto:jcedeno@panicsoda.com">Contact</a>
     </div>
     <div>

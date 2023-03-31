@@ -13,7 +13,7 @@
     <p class="text-center mb-6 text-neutral-300">
       The, soon to be, best website in the world 🌎.
     </p>
-    <div class="flex flex-row justify-center items-center gap-4">
+    <div class="flex flex-row justify-center items-center gap-4 mb-4">
       <!---TODO Add branding socials. -->
       <ul
         class="menu bg-base-100 w-56 p-2 rounded-box flex justify-center items-center"
@@ -87,36 +87,27 @@
         </li>
       </ul>
     </div>
-    <br />
 
-    <div class="flex flex-row justify-center items-center gap-4 mb-48">
+    <div class="flex flex-row justify-center items-center gap-4 mb-4">
       <div class="card card-side bg-base-100 shadow-xl">
         <figure>
+          <!-- Make the image auto resize to fit -->
           <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            alt="Movie"
+            class="w-[200px] h-full object-cover"
+            src="https://pbs.twimg.com/profile_banners/805640604583686144/1501192280/1500x500"
+            alt="NoobstersMC Twitter Banner"
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
+          <h2 class="card-title font-bold">NoobstersMC</h2>
+          <p>
+            <a href="https://twitter.com/NobostersOld"  target="_blank">NoobstersMC</a> is a Minecraft Network that has successfully cultivated
+            a dedicated and engaged player base, peaking at 16K followers. This
+            achievement speaks to the brand's strong appeal and popularity
+            within the Minecraft community.
+          </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
-          </div>
-        </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            alt="Movie"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
+            <button class="btn btn-primary">learn more</button>
           </div>
         </div>
       </div>
@@ -151,9 +142,26 @@
         </div>
       </div>
     </div>
-  </body>
 
-  <br />
+    <div class="flex flex-row justify-center items-center gap-4 mb-48">
+      <!-- The button to open modal -->
+      <label for="my-modal-4" class="btn">don't push the button</label>
+
+      <!-- Put this part before </body> tag -->
+      <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+      <label for="my-modal-4" class="modal cursor-pointer">
+        <label class="modal-box relative" for="">
+          <h3 class="text-lg font-bold">
+            Congratulations random Internet user!
+          </h3>
+          <p class="py-4">
+            uwu, you found a secret button. I'm proud of you. You're a good. I
+            luv you, xoxo ❤
+          </p>
+        </label>
+      </label>
+    </div>
+  </body>
 
   <footer
     class="footer flex-grow footer-center p-10 bg-base-200 text-base-content rounded"

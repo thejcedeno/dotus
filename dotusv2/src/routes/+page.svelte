@@ -88,62 +88,81 @@
       </ul>
     </div>
 
-    <div class="flex flex-row justify-center items-center gap-4 mb-4">
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
-          <!-- Make the image auto resize to fit -->
+    <div class="w-screen h-fit flex items-center justify-center">
+      <div
+        class="flex h-full sm:flex-row w-screen flex-col items-center justify-center gap-5 text-white m-5 font-mono"
+      >
+        <div class="h-fit w-[90%] rounded-b-lg bg-slate-700">
           <img
-            class="w-[200px] h-full object-cover"
+            class="h-[80%] w-full object-cover"
             src="https://pbs.twimg.com/profile_banners/805640604583686144/1501192280/1500x500"
-            alt="NoobstersMC Twitter Banner"
           />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title font-bold">NoobstersMC</h2>
-          <p>
-            <a href="https://twitter.com/NobostersOld"  target="_blank">NoobstersMC</a> is a Minecraft Network that has successfully cultivated
-            a dedicated and engaged player base, peaking at 16K followers. This
-            achievement speaks to the brand's strong appeal and popularity
-            within the Minecraft community.
-          </p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">learn more</button>
+          <div class="flex flex-col p-5">
+            <div
+              class="flex items-center justify-between w-full border-b-[1px] border-gray-500 pb-5"
+            >
+              <h1 class="font-bold text-2xl">Noobsters</h1>
+              <button class="rounded bg-violet-400 p-2">Press me</button>
+            </div>
+            <p class="font-semibold text-gray-300 mt-5">
+              NoobstersMC is a Minecraft Network that has successfully
+              cultivated a dedicated and engaged player base, peaking at 16K
+              followers. This achievement speaks to the brand's strong appeal
+              and popularity within the Minecraft community.
+            </p>
+            <br>
+            <br>
           </div>
         </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
+        <div class="h-fit w-[90%] rounded-b-lg bg-slate-700">
           <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            alt="Movie"
+            class="h-[80%] w-full object-cover"
+            src="https://pbs.twimg.com/profile_banners/805640604583686144/1501192280/1500x500"
           />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
+          <div class="flex flex-col p-5">
+            <div
+              class="flex items-center justify-between w-full border-b-[1px] border-gray-500 pb-5"
+            >
+              <h1 class="font-bold text-2xl">Noobsters</h1>
+              <button class="rounded bg-violet-400 p-2">Press me</button>
+            </div>
+            <p class="font-semibold text-gray-300 mt-5">
+              NoobstersMC's ongoing commitment to providing quality content and
+              fostering a positive and supportive community has driven its
+              success and attracted new players to its network. The brand
+              leverages its following to expand its reach and influence within
+              the community, promoting new updates and features and
+              collaborating with other content creators to further grow its
+              audience.
+            </p>
           </div>
         </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
+        <div class="h-fit w-[90%] rounded-b-lg bg-slate-700">
           <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            alt="Movie"
+            class="h-[80%] w-full object-cover"
+            src="https://pbs.twimg.com/profile_banners/805640604583686144/1501192280/1500x500"
           />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
+          <div class="flex flex-col p-5">
+            <div
+              class="flex items-center justify-between w-full border-b-[1px] border-gray-500 pb-5"
+            >
+              <h1 class="font-bold text-2xl">Noobsters</h1>
+              <button class="rounded bg-violet-400 p-2">Press me</button>
+            </div>
+            <p class="font-semibold text-gray-300 mt-5">
+              Large descriptionNoobstersMC has always been at the forefront of
+              technology within the Minecraft community, developing innovative
+              tech solutions to enhance the gameplay experience for its players.
+              The brand has implemented custom-built server infrastructure
+              designed to handle high traffic and ensure a seamless gameplay
+              experience.
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="flex flex-row justify-center items-center gap-4 mb-48">
+    <div class="flex flex-col justify-center items-center gap-4 mt-12 mb-1">
       <!-- The button to open modal -->
       <label for="my-modal-4" class="btn">don't push the button</label>
 
